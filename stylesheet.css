@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    background-color: rgb(244, 244, 245);
+}
+#header{
+    background-color:#E56629; 
+}
+.navigation{
+    width: 75%;
+    margin: 0 auto;
+    height: 105px;
+    display: flex;
+    align-items: center;
+}
+#header_logo{
+    flex: 50%;
+}
+.subnav{
+    color: white;
+    font-size: 19px;      
+}
+.subnav ul li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+}
+a{
+    text-decoration: none;
+    padding: 11px;
+    color: white;
+}
+.bookbutton{
+    padding: 190px 0 0 0;;
+}
+#bannersection{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.mainhead{
+    color: #E56629;
+    font-size: 59px;
+}
+.submainhead{
+    font-size: 35px;
+}
+.subhead{
+    font-size: 20px;
+}
+.btun1{
+    background-color: #E56629;
+    color: white;
+    width: 97px;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+.butn2{
+    background-color: white;
+    width: 97px;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+}    
+.bannerpic{
+    float: right;
+}
+.box label{
+    display: block;
+}
+.boxform{
+    display: flex;
+    justify-content: space-evenly;
+}
+#detailbox{
+    background-color: white;
+    border-radius: 10px;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 30px;   
+}
+
+.entersearch{
+    padding: 8px;
+    border-radius: 10px;
+}
+.dsearch{
+    width: 75%;
+    padding: 8px;
+    border-radius: 10px;
+}
+.search{
+    width: 80px;
+    padding: 8px;
+    border-radius: 17px;
+}
+#butn{
+    padding: 15px;
+}
+.searchbutn{
+    width: 101px;
+    font-size: 15px;
+    background-color: #E56629;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#bodysection{
+    width: 75%;
+    margin: 0 auto;
+}
+.heading2{
+   text-align: center;
+   padding-top: 47px;
+   padding-bottom: 47px;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.subhead2{
+    text-align: center;
+}
+#detailsection{
+    text-align: center;
+    display: flex;
+}
+.steps{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 48px;
+}
+.stepicon{
+    width: 80px;
+}
+.firststep{
+    font-size: 25px;
+}
+#servicesection{
+   text-align: center;
+   justify-content: space-between;
+   display: flex; 
+   padding-top: 40px; 
+}
+.w_section{
+    background-color: white;
+    border-radius: 30px 0 0 0;
+    border: 2px solid #E56629;
+    padding: 30px 5px 30px 10px;   
+}
+
+#why_choose{
+    display: flex;
+}
+.bestsection{
+    display: flex;
+    padding: 10px;  
+}
+.besticon{
+    padding: 0 20px;
+}
+
+#meet_section{
+    padding-top: 39px  
+}
+.our_cars{
+    display: flex;
+    background-color: rgb(244, 244, 245);
+    justify-content: space-between;
+}
+.our_section{
+    display: flex;
+    background-color: rgb(244, 244, 245);
+    justify-content: space-between;
+}
+.car_section{
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 46px;
+}
+.dayprice{
+    display: flex;
+    padding-left: 43px;
+}
+.cars1 {
+    width: 200px;
+    padding: 18px;
+}
+.cars{
+    width: 200px;
+    padding: 12px;
+}
+.cars2{
+    width: 200px;
+    padding: 29px
+}
+.cars3{
+    width: 200px;
+    padding: 22px;
+}
+.yearbox{
+    padding: 3px;
+    color: grey;
+    border: 1px solid grey;
+}
+.autobox{
+    padding: 3px; 
+    color: grey; 
+    border: 1px solid grey;
+} 
+.airbox{
+    padding: 3px;
+    color: grey;
+    border: 1px solid grey;
+}
+.butn{
+    text-align: center;
+    padding-top: 28px
+}
+.pricetag{
+    color: #E56629;
+}
+.boxdetail{
+    padding: 9px;
+}
+.searchcar{
+    background-color: #E56629;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 9px;
+}
+.brand_section{
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 13px;
+    border-radius: 10px;
+}
+.brandicon{ 
+    width: 47px;
+}
+#Experience{
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.black{
+    width: 81px;
+}
+#featsection{
+    display: flex;
+    justify-content: space-evenly;
+}
+.subfeat{
+    background-color: white;
+    padding: 21px;
+    border-radius: 20px;
+}
+.featpic{
+    width: 200px;
+    height: 127px;
+}
+.nowbutn{
+    text-align: center;
+    padding: 10px;
+}
+.bookbutn{
+    background-color: #E56629;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    padding: 6px 12px 6px 12px;
+}
+.letf-picure{
+    margin-bottom: -5px;
+}
+.girlpic{
+    width: 300px;
+    border-radius: 40px 0px 0px 40px;
+    
+}
+.note{
+   
+    background-color: black;
+    border-radius: 50px 20px 50px 20px; 
+    padding-left: 20px;
+    color: white;
+    
+}
+.notetext{
+   padding-top: 31px;
+   padding-bottom: 14px;
+
+}
+.adverimage{
+    position: relative;
+}
+.adverdetail{
+    margin-top: -506px;
+    margin-left: 82px;
+    position: absolute;
+    color: white;
+}
+.save_text{
+    font-size: 54px;
+}
+.easy_text{
+    font-size: 20px;
+}
+
+.trip_pic{
+    width: 1678px;
+}
+#footer{
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+.adbutton{
+    background-color: #E56629; 
+    max-width: 328px;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    padding: 8px 17px 8px 17px;
+    font-size: 21px;
+}
+.boxtname{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+#subfooter{
+    display: flex;
+    
+
+}
+.btext{
+    padding: 9px;
+    border-radius: 9px;
+    width: 180px;
+    border: none;
+    height: 45px;
+}
+.message_text{
+    padding: 82px;
+    border-radius: 9px;
+    border: none;
+
+}
+.contact_section{
+    display: flex;
+}
+.subfooterdet{
+    padding: 35px;
+}
+.contact_name{
+    padding: 20px 20px 20px 0 ;
+    
+}
+.contactus{
+    background-color: rgb(223, 222, 222);
+    border: grey;
+    padding: 10px;
+    width: 668px;
+}
+.detailsub{
+    background-color: #E56629;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    padding: 8px 17px 8px 17px;
+    
+}
+.map{
+    width: 300px;
+}
+.sub_butn{
+    padding: 33px 0;
+}
+.mapsection{
+    width: 940px;
+}
+.mapdetail{
+    background-color: #E56629;
+    color: white;
+}
+#footer_deatils{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+#footer_deatils ul li{
+    list-style: none;
+}
+.taxilogo{
+    width: 136px;
+    height: 69px;
+    padding: 22px;
+}
+.appicons{
+    display: flex;
+    justify-content: right;
+}
+
+
+
+
+
